@@ -1,0 +1,99 @@
+<!-- :: same as currency converter :: -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Currency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Currency Converter
+        </h1>
+    </header>
+    <hr>
+    <main class="main">
+        <div class="theme">Theme</div>
+        <form action="#">
+            <fieldset id="cc">
+                <legend>
+                    <h4>Currency Converter</h4>
+                </legend>
+                <label for="cc-user-input">
+                    Enter amount:
+                    <input type="number" name="" id="cc-user-input">
+                </label>
+                <label for="cc-converted">
+                    <input type="number" name="" id="cc-converted" disabled>
+                    <input type="text" name="" id="cc-price-rate" disabled>
+                </label>
+                <div class="countries-menu">
+                    <select name="from" id="cc-from-user-menu">
+                        <option value="USA">USA</option>
+                        <option value="UAE">UAE</option>
+                        <option value="PAK">PAK</option>
+                        <option value="CHN">CHN</option>
+                        <option value="DIN">DIN</option>
+                        <option value="SPN">SPN</option>
+                        <option value="IND">IND</option>
+                    </select>
+                    <div class="cc-btw-img">👉</div>
+                    <select name="to" id="cc-to-user-menu">
+                        <option value="PAK">PAK</option>
+                        <option value="USA">USA</option>
+                        <option value="UAE">UAE</option>
+                        <option value="CHN">CHN</option>
+                        <option value="DIN">DIN</option>
+                        <option value="SPN">SPN</option>
+                        <option value="IND">IND</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset id="ce">
+                <legend>
+                    <h4>Currency Exchange Rates</h4>
+                </legend>
+                <label for="ce-purchase-input">
+                    Enter amount to be purchased:
+                    <input type="number" name="" id="ce-purchase-input">
+                    <input type="number" name="" id="ce-purchase-output" disabled>
+                </label>
+                <label for="ce-sale-input">
+                    Enter amount you wanna sell:
+                    <input type="number" name="" id="ce-sale-input">
+                    <input type="number" name="" id="ce-sale-output" disabled>
+                </label>
+                <div class="countries-menu">
+                    <select name="from" id="ce-from-user-menu">
+                        <option value="USA">USA</option>
+                        <option value="UAE">UAE</option>
+                        <option value="PAK">PAK</option>
+                        <option value="CHN">CHN</option>
+                        <option value="DIN">DIN</option>
+                        <option value="SPN">SPN</option>
+                        <option value="IND">IND</option>
+                    </select>
+                    <div class="cc-btw-img">👉</div>
+                    <select name="to" id="ce-to-user-menu">
+                        <option value="PAK">PAK</option>
+                        <option value="USA">USA</option>
+                        <option value="UAE">UAE</option>
+                        <option value="CHN">CHN</option>
+                        <option value="DIN">DIN</option>
+                        <option value="SPN">SPN</option>
+                        <option value="IND">IND</option>
+                    </select>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <hr>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
